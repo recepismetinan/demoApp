@@ -8,8 +8,13 @@ namespace Web.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class HomeController : ControllerBase
+    public class HomeController : Controller
     {
-        
+        [HttpGet]
+        public IActionResult Get()
+        {
+            var data = new { message = "Merhaba, React tarafından gelen istek!" };
+            return Ok(data);
+        }
     }
 }
