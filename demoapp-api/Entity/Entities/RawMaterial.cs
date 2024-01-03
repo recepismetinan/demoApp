@@ -9,5 +9,6 @@ namespace Entity.Entities
     {
         public string Name { get; set; }
         public string StockQuantity { get; set; }
+        
     }
 }

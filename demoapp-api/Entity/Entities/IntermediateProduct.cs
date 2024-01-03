@@ -10,6 +10,7 @@ namespace Entity.Entities
     {
         public string Name { get; set; }
         public IntermediateProductTypes IntermediateProductTypes { get; set; }
+        public ProductionStage ProductionStage { get; set; }
         public string StockQuantity { get; set; }
     }
 }

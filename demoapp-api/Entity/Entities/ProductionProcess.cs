@@ -9,5 +9,6 @@ namespace Entity.Entities
     {
         public string? Note { get; set; }
         public bool IsApproved { get; set; }
+        public int ProductCount { get; set; }
     }
 }
