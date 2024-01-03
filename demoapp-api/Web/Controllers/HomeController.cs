@@ -8,7 +8,7 @@ namespace Web.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class HomeController : Controller
+    public class HomeController : ControllerBase
     {
         [HttpGet]
         public IActionResult Get()
