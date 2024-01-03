@@ -9,7 +9,7 @@ namespace Entity.Entities
     public class IntermediateProduct
     {
         public string Name { get; set; }
-        public IntermediateProductTypes IntermediateProductTypes { get; set; }
+        public IntermediateProductCategory IntermediateProductCategory { get; set; }
         public ProductionStage ProductionStage { get; set; }
         public string StockQuantity { get; set; }
     }

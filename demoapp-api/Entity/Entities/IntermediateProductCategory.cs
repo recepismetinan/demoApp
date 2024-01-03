@@ -2,15 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Entity.Enums;
 
 namespace Entity.Entities
 {
-    public class Product
+    public class IntermediateProductCategory
     {
         public string Name { get; set; }
-        public string Type { get; set; }
-        public ProductCategory ProductCategory { get; set; }
-        
     }
 }
