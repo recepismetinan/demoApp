@@ -8,5 +8,6 @@ namespace Entity.Entities
     public class RawMaterialCategory
     {
         public string Name { get; set;}
+        public string Detail { get; set; }
     }
 }

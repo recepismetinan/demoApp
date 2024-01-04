@@ -11,6 +11,5 @@ namespace Entity.Entities
         public string Name { get; set; }
         public RawMaterialCategory RawMaterialCategory { get; set; }
         public string StockQuantity { get; set; }
-
     }
 }

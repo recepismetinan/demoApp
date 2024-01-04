@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Entity.Entities;
 
-namespace Service.AutoMapper.Users
+namespace Service.AutoMapper.Products
 {
-    public class UserMapper : Profile
+    public class ProductMapper : Profile
     {
-        public UserMapper()
+        public ProductMapper()
         {
-                            
+            
         }
     }
 }

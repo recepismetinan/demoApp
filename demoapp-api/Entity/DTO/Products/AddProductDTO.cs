@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Entity.Entities
+namespace Entity.DTO.Products
 {
-    public class IntermediateProductCategory
+    public class AddProductDTO
     {
-        public string Name { get; set; }
+        
     }
 }

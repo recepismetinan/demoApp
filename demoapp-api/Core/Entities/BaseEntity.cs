@@ -9,7 +9,6 @@ namespace Core.Entities
     {
         public virtual int Id { get; set; }
         public virtual DateTime CreatedDate { get; set; } = DateTime.UtcNow;
-        public virtual DateTime? ModifiedDate { get; set; }
         public virtual DateTime? DeletedDate { get; set; }
         public virtual bool IsDeleted { get; set; } = false;
         

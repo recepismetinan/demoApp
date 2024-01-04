@@ -8,5 +8,6 @@ namespace Entity.Entities
     public class ProductCategory
     {
         public string Name { get; set;}
+        public string TechnicalDetail { get; set; }
     }
 }
