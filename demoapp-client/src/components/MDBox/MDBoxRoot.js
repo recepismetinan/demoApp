@@ -95,7 +95,6 @@ export default styled(Box)(({ theme, ownerState }) => {
   } else if (coloredShadow) {
     boxShadowValue = colored[coloredShadow] ? colored[coloredShadow] : "none";
   }
-
   return {
     opacity,
     background: backgroundValue,

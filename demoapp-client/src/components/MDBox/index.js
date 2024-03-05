@@ -1,10 +1,7 @@
 import { forwardRef } from "react";
-
 import PropTypes from "prop-types";
-
 // Custom styles for MDBox
 import MDBoxRoot from "components/MDBox/MDBoxRoot";
-
 const MDBox = forwardRef(
   ({ variant, bgColor, color, opacity, borderRadius, shadow, coloredShadow, ...rest }, ref) => (
     <MDBoxRoot
@@ -14,7 +11,6 @@ const MDBox = forwardRef(
     />
   )
 );
-
 // Setting default values for the props of MDBox
 MDBox.defaultProps = {
   variant: "contained",
@@ -25,7 +21,6 @@ MDBox.defaultProps = {
   shadow: "none",
   coloredShadow: "none",
 };
-
 // Typechecking props for the MDBox
 MDBox.propTypes = {
   variant: PropTypes.oneOf(["contained", "gradient"]),
@@ -46,5 +41,4 @@ MDBox.propTypes = {
     "none",
   ]),
 };
-
 export default MDBox;
